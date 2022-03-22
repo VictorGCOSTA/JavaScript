@@ -1,1 +1,1 @@
- - Exercícios utilizando javascript
+ - Exercícios utilizando javascript HTML e CSS
