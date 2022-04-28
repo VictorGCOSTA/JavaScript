@@ -24,7 +24,7 @@ interface Veiculo {
             <td>${veículo.nome}</td>
             <td>${veículo.placa}</td>
             <td>${veículo.entrada}</td>
-            <td><button class="delete" data-placa="${veículo.placa}">X</button></td>
+            <td><button class="delete btn btn-secondary" data-placa="${veículo.placa}">X</button></td>
             `
             row.querySelector(".delete")?.addEventListener("click", function(){
                 remover(this.dataset.placa)
